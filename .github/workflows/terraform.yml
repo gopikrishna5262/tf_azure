@@ -59,10 +59,10 @@ jobs:
     environment: production
 
     env:
-      CLIENTID: ${{ secrets.CLIENTID }}
-      SECRET: ${{ secrets.SECRET }}
-      SUBSCRIPTION: ${{ secrets.SUBSCRIPTION }}
-      TENANTID: ${{ secrets.TENANTID }}
+      ARM_CLIENT_ID: ${{ secrets.CLIENTID }}
+      ARM_CLIENT_SECRET: ${{ secrets.SECRET }}
+      ARM_SUBSCRIPTION_ID: ${{ secrets.SUBSCRIPTION }}
+      ARM_TENANT_ID: ${{ secrets.TENANTID }}
 
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
