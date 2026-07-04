@@ -11,11 +11,11 @@ terraform {
 provider "azurerm" {
   features {}
 
-  resource_provider_registrations = "none"
-  subscription_id                 = var.subscription
-  client_id                       = var.clientid
-  client_secret                   = var.secret
-  tenant_id                       = var.tenantid
+  # resource_provider_registrations = "none"
+  # subscription_id                 = var.subscription
+  # client_id                       = var.clientid
+  # client_secret                   = var.secret
+  # tenant_id                       = var.tenantid
 
 }
 

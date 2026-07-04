@@ -1,4 +1,4 @@
-variable "subscription" {
+/* variable "subscription" {
   type        = string
   description = "used for subscription"
 
@@ -17,7 +17,7 @@ variable "tenantid" {
   type        = string
   description = "used for tenantid"
 }
-
+*/
 variable "rgname" {
   type        = string
   description = "used for rgname"
