@@ -21,9 +21,11 @@ variable "tenantid"{
 variable "rgname"{
     type = string
     description = "used for rgname"
+    default = "TFPractice"
 }
 
 variable "rglocation"{
     type = string
     description = "used for trglocation"
+    default = "Central India"
 }
