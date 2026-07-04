@@ -24,3 +24,12 @@ resource "azurerm_resource_group" "RG3" {
   name     = var.rgname
   location = var.rglocation
 }
+
+terraform {
+  backend "azurerm" {
+    resource_group_name  = "TFPractice"
+    storage_account_name = "tfstatefile12"
+    container_name       = "tfstate"
+    key                  = "terraform.tfstate"
+  }
+}
