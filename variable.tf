@@ -1,31 +1,29 @@
 variable "subscription"{
     type = string
-    description = "used for naming RG"
+    description = "used for subscription"
    
 }
 variable "clientid"{
     type = string
-    description = "used for naming RG"
+    description = "used for clientid"
 }
 
 variable "secret"{
     type = string
-    description = "used for naming RG"
+    description = "used for secret"
 }
 
 variable "tenantid"{
     type = string
-    description = "used for naming RG"
+    description = "used for tenantid"
 }
 
 variable "rgname"{
     type = string
-    description = "used for naming RG"
+    description = "used for rgname"
 }
-
 
 variable "rglocation"{
     type = string
-    description = "used for sececting location"
-    default = "eastus"
+    description = "used for trglocation"
 }
